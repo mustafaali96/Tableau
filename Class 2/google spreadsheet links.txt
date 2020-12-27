@@ -1,0 +1,5 @@
+={
+Query(QUERY(IMPORTHTML("https://www.pass.gov.pk/ecs/uct_all.html","table",1),"SELECT Col1,Col2,Col3,Col4,Col5,Col6,Col7,'UCT_ALL' label 'UCT_ALL' 'PAGE'", 0),"select * offset 2",0);
+Query(QUERY(IMPORTHTML("https://www.pass.gov.pk/ecs/uct_cat1.html","table",1),"SELECT Col1,Col2,Col3,Col4,Col5,Col6,Col7,'UCT_CAT1' label 'UCT_CAT1' 'PAGE'", 0),"select * offset 2",0);
+Query(QUERY(IMPORTHTML("https://www.pass.gov.pk/ecs/uct_cat2.html","table",1),"SELECT Col1,Col2,Col3,Col4,Col5,Col6,Col7,'UCT_CAT2' label 'UCT_CAT2' 'PAGE'", 0),"select * offset 2",0);
+
